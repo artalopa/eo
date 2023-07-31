@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    /> -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Eventos Premium</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+    </style>
+  </head>
+  <body class="overflow-x-hidden">
+    <svg
+      class="absolute -right-[250px] -bottom-[2900px] z-10 overflow-visible"
+      style="opacity: 1"
+      width="839"
+      height="828"
+      viewBox="0 0 839 828"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g opacity="0.3" filter="url(#filter0_f_79_690)">
+        <path
+          d="M838.463 413.566C838.463 641.972 650.767 827.132 419.231 827.132C187.696 827.132 0 641.972 0 413.566C0 185.16 187.696 0 419.231 0C650.767 0 838.463 185.16 838.463 413.566Z"
+          fill="#A4A4A4"
+        />
+      </g>
+      <defs>
+        <filter
+          id="filter0_f_79_690"
+          x="-385.244"
+          y="-385.244"
+          width="1608.95"
+          height="1597.62"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="BackgroundImageFix"
+            result="shape"
+          />
+          <feGaussianBlur
+            stdDeviation="192.622"
+            result="effect1_foregroundBlur_79_690"
+          />
+        </filter>
+      </defs>
+    </svg>
+    <!-- Hero -->
+    <section id="hero" class="relative overflow-hidden">
+      <svg
+        class="overflow-visible absolute -left-[350px] -top-[327px]"
+        style="opacity: 1"
+        width="839"
+        height="828"
+        viewBox="0 0 839 828"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g opacity="0.3" filter="url(#filter0_f_79_777)">
+          <path
+            d="M838.83 413.566C838.83 641.972 651.133 827.132 419.598 827.132C188.063 827.132 0.366699 641.972 0.366699 413.566C0.366699 185.16 188.063 0 419.598 0C651.133 0 838.83 185.16 838.83 413.566Z"
+            fill="#A4A4A4"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_79_777"
+            x="-384.877"
+            y="-385.244"
+            width="1608.95"
+            height="1597.62"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feGaussianBlur
+              stdDeviation="192.622"
+              result="effect1_foregroundBlur_79_777"
+            />
+          </filter>
+        </defs>
+      </svg>
+
+      <div
+        style="background-image: url('assets/img/Hero-bg.png')"
+        class="max-[380px]:bg-cover lg:bg-right bg-no-repeat -z-10"
+      >
+        <!-- Hero slider -->
+        <div class="flex absolute lg:-right-80 lg:top-36">
+          <div
+            class="card w-64 lg:w-96 bg-base-100 shadow-xl rounded-[69px] mx-3 scale-[.8] -z-[1]"
+          >
+            <figure>
+              <img src="assets/img/Hero-slider.png" alt="Picture" />
+            </figure>
+            <div class="card-body px-[50px] pt-6 pb-10">
+              <h2 class="card-title">Cristian Muñoz</h2>
+              <p>“Layanan luar biasa, pesta prom berjalan dengan luar biasa”</p>
+            </div>
+          </div>
+          <img src="assets/img/Arrow-left-orange.svg" alt="" />
+          <div
+            class="card w-64 lg:w-96 bg-base-100 shadow-xl rounded-[69px] mx-3"
+          >
+            <figure>
+              <img src="assets/img/Hero-slider.png" alt="Picture" />
+            </figure>
+            <div class="card-body px-[50px] pt-6 pb-10">
+              <h2 class="card-title">Cristian Muñoz</h2>
+              <p>“Layanan luar biasa, pesta prom berjalan dengan luar biasa”</p>
+            </div>
+          </div>
+          <img src="assets/img/Arrow-right-orange.svg" alt="" />
+          <div
+            class="card w-64 lg:w-96 bg-base-100 shadow-xl rounded-[69px] mx-3 scale-[.8]"
+          >
+            <figure>
+              <img src="assets/img/Hero-slider.png" alt="Picture" />
+            </figure>
+            <div class="card-body px-[50px] pt-6 pb-10">
+              <h2 class="card-title">Cristian Muñoz</h2>
+              <p>“Layanan luar biasa, pesta prom berjalan dengan luar biasa”</p>
+            </div>
+          </div>
+        </div>
+        <!-- Hero slider end -->
+        <div
+          class="bg-gradient-to-br lg:bg-gradient-to-r from-[#0C111F] from-0% via-[#0C111F] via-45% to-transparent min-h-screen"
+        >
+          <div
+            style="background-image: url('assets/img/Grid.svg')"
+            class="bg-left-bottom bg-contain bg-opacity-30 min-h-screen bg-no-repeat"
+          >
+            <!-- Navbar -->
+            <div class="container mx-auto pt-4">
+              <div class="navbar justify-between">
+                <div class="navbar-start lg:w-fit">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16"
+                        />
+                      </svg>
+                    </label>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-white"
+                    >
+                      <li>
+                        <a class="hover:text-[#FAC025] bg-none">Tentang kami</a>
+                      </li>
+                      <li>
+                        <a class="hover:text-[#FAC025] bg-none">Layanan</a>
+                      </li>
+                      <li>
+                        <a class="hover:text-[#FAC025] bg-none">Lokasi</a>
+                      </li>
+                      <li>
+                        <a class="hover:text-[#FAC025] bg-none">Galeri</a>
+                      </li>
+                      <li>
+                        <a class="hover:text-[#FAC025] bg-none">Kontak</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <a class="hover:scale-105 transition" href="index.html">
+                    <img src="assets/img/Logo.svg" alt="Eventos Premium" />
+                  </a>
+                  <div class="hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 font-bold text-white">
+                      <li>
+                        <a class="hover:text-[#FAC025] bg-none">Tentang kami</a>
+                      </li>
+                      <li>
+                        <a class="hover:text-[#FAC025] bg-none">Layanan</a>
+                      </li>
+                      <li>
+                        <a class="hover:text-[#FAC025] bg-none">Lokasi</a>
+                      </li>
+                      <li>
+                        <a class="hover:text-[#FAC025] bg-none">Galeri</a>
+                      </li>
+                      <li>
+                        <a class="hover:text-[#FAC025] bg-none">Kontak</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="navbar-end">
+                  <a
+                    class="btn btn-ghost rounded-full bg-gradient-to-b from-[#141414] to-[#383838] bg-opacity-80 text-white p-2 pl-4 h-fit"
+                  >
+                    Eventos Premium
+                    <div class="rounded-full bg-white p-2 ml-2">
+                      <img src="assets/img/WA.svg" alt="" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Navbar end -->
+
+            <div class="container mx-auto">
+              <!-- Text -->
+              <div
+                class="lg:w-[40%] m-12 lg:mx-0 flex flex-col gap-5 lg:gap-10"
+              >
+                <h1 class="text-5xl lg:text-7xl font-abril text-white">
+                  Pengalaman yang
+                  <span class="text-[#FAC025]">Tak Terlupakan</span>
+                </h1>
+                <p class="text-white">
+                  Di Acara Premium kami berkomitmen untuk menjadikan acara Anda
+                  pengalaman yang tak terlupakan, kami ada untuk Anda.
+                </p>
+                <div
+                  class="btn btn-ghost rounded-full shadow-lg shadow-[#f6d46538] bg-gradient-to-b from-[#F6D365] from-00% via-[#F6D365] via-50% to-[#FBB708] text-[#141414] w-fit"
+                >
+                  Jadwalkan meeting
+                  <img src="assets/img/Arrow-right-black.svg" alt="" />
+                </div>
+              </div>
+              <!-- Text end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- More info -->
+    <div
+      class="rounded-[30px] py-3 px-6 absolute -bottom-16 left-1/2 transform -translate-x-1/2 -translate-y-1/2 shadow-lg shadow-[#f6d46538] bg-gradient-to-b from-[#F6D365] from-00% via-[#F6D365] via-50% to-[#FBB708] text-[#141414] z-10"
+    >
+      <img class="mx-auto" src="assets/img/Arrow-down-black.svg" alt="" />
+      More Info
+    </div>
+    <!-- More info end -->
+    <!-- Hero end -->
+
+    <!-- Question -->
+    <section id="question" class="relative overflow-hidden">
+      <img
+        class="absolute left-96 top-56 -z-10"
+        src="assets/img/Question.svg"
+        alt=""
+      />
+      <img
+        class="absolute -left-12 top-80 -z-10 rotate-180 scale-150"
+        src="assets/img/Question.svg"
+        alt=""
+      />
+      <svg
+        class="overflow-visible absolute -right-96 -top-5 -z-10"
+        style="opacity: 1"
+        width="1037"
+        height="948"
+        viewBox="0 0 1037 948"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g opacity="0.3" filter="url(#filter0_f_79_737)">
+          <path
+            d="M1037 474C1037 735.783 804.86 948 518.5 948C232.14 948 0 735.783 0 474C0 212.217 232.14 0 518.5 0C804.86 0 1037 212.217 1037 474Z"
+            fill="url(#paint0_linear_79_737)"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_79_737"
+            x="-385.244"
+            y="-385.244"
+            width="1807.49"
+            height="1718.49"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feGaussianBlur
+              stdDeviation="192.622"
+              result="effect1_foregroundBlur_79_737"
+            />
+          </filter>
+          <linearGradient
+            id="paint0_linear_79_737"
+            x1="0"
+            y1="474"
+            x2="1037"
+            y2="474"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#F6D365" />
+            <stop offset="1" stop-color="#FBB708" />
+          </linearGradient>
+        </defs>
+      </svg>
+
+      <div class="container py-32 flex items-center float-right">
+        <div class="-ml-11 mr-8">
+          <h1 class="text-5xl text-[#0C111F] font-abril mb-16">
+            ¿Tentang Kami?
+          </h1>
+          <p>
+            Kami adalah perusahaan Santanderena yang menyediakan layanan khusus
+            organisasi dan koordinasi acara sosial dan bisnis di Wilayah
+            Metropolitan Bucaramanga. Kami menyediakan semua klien dengan
+            layanan khusus di mana Anda merasa terlibat tetapi tanpa khawatir
+            tentang pelaksanaannya.
+          </p>
+        </div>
+        <img
+          class="rounded-tl-full rounded-bl-full"
+          src="assets/img/Question-image.png"
+          alt=""
+        />
+      </div>
+    </section>
+    <!-- Question end -->
+
+    <!-- Services -->
+    <section id="service" class="relative overflow-hidden pb-40">
+      <img class="absolute -right-5 top-40" src="assets/img/Dots.svg" alt="" />
+      <img
+        class="absolute -left-32 top-[520px]"
+        src="assets/img/Dots.svg"
+        alt=""
+      />
+      <div class="container mx-auto">
+        <h1 class="text-5xl text-[#0C111F] font-abril mb-16">Layanan</h1>
+        <div class="flex flex-col w-fit items-end">
+          <div class="flex pb-14 w-fit">
+            <div
+              class="card w-64 lg:w-80 bg-base-100 shadow-2xl rounded-[50px] mr-7"
+            >
+              <figure>
+                <img src="assets/img/Hero-slider.png" alt="Picture" />
+              </figure>
+              <div class="card-body px-7 pt-5 pb-7">
+                <h2 class="card-title">Cristian Muñoz</h2>
+                <p>
+                  “Layanan luar biasa, pesta prom berjalan dengan luar biasa”
+                </p>
+                <a
+                  class="btn rounded-full w-fit capitalize shadow-lg shadow-[#f6d46538] bg-gradient-to-r from-[#F6D365] from-00% via-[#F6D365] via-50% to-[#FBB708] text-white z-10"
+                  >More Info</a
+                >
+              </div>
+            </div>
+            <div
+              class="card w-64 lg:w-80 bg-base-100 shadow-2xl rounded-[50px] mx-7"
+            >
+              <figure>
+                <img src="assets/img/Hero-slider.png" alt="Picture" />
+              </figure>
+              <div class="card-body px-7 pt-5 pb-7">
+                <h2 class="card-title">Cristian Muñoz</h2>
+                <p>
+                  “Layanan luar biasa, pesta prom berjalan dengan luar biasa”
+                </p>
+                <a
+                  class="btn rounded-full w-fit capitalize shadow-lg shadow-[#f6d46538] bg-gradient-to-r from-[#F6D365] from-00% via-[#F6D365] via-50% to-[#FBB708] text-white z-10"
+                  >More Info</a
+                >
+              </div>
+            </div>
+            <div
+              class="card w-64 lg:w-80 bg-base-100 shadow-2xl rounded-[50px] ml-7"
+            >
+              <figure>
+                <img src="assets/img/Hero-slider.png" alt="Picture" />
+              </figure>
+              <div class="card-body px-7 pt-5 pb-7">
+                <h2 class="card-title">Cristian Muñoz</h2>
+                <p>
+                  “Layanan luar biasa, pesta prom berjalan dengan luar biasa”
+                </p>
+                <a
+                  class="btn rounded-full w-fit capitalize shadow-lg shadow-[#f6d46538] bg-gradient-to-r from-[#F6D365] from-00% via-[#F6D365] via-50% to-[#FBB708] text-white z-10"
+                  >More Info</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- More services -->
+          <div
+            class="btn btn-ghost rounded-full shadow-lg shadow-[#f6d46538] bg-gradient-to-b from-[#F6D365] from-00% via-[#F6D365] via-50% to-[#FBB708] text-[#141414] w-fit"
+          >
+            Service selengkapnya
+            <img src="assets/img/Arrow-right-black.svg" alt="" />
+          </div>
+          <!-- More services end -->
+        </div>
+      </div>
+    </section>
+    <!-- Services end -->
+
+    <!-- Places -->
+    <section
+      id="places"
+      class="relative overflow-x-hidden overflow-y-clip bg-cover h-[983.85px]"
+      style="background-image: url(assets/img/Places-bg.svg)"
+    >
+      <div
+        class="rounded-full w-[118px] h-[118px] absolute right-48 top-40"
+        style="
+          background: var(
+            --dorado,
+            linear-gradient(
+              90deg,
+              rgba(246, 211, 101, 1) 0%,
+              rgba(251, 183, 8, 1) 100%
+            )
+          );
+        "
+      ></div>
+
+      <svg
+        class="absolute -left-[400px] -top-[250px] overflow-visible"
+        style="opacity: 1"
+        width="839"
+        height="828"
+        viewBox="0 0 839 828"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g opacity="0.3" filter="url(#filter0_f_79_690)">
+          <path
+            d="M838.463 413.566C838.463 641.972 650.767 827.132 419.231 827.132C187.696 827.132 0 641.972 0 413.566C0 185.16 187.696 0 419.231 0C650.767 0 838.463 185.16 838.463 413.566Z"
+            fill="#A4A4A4"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_79_690"
+            x="-385.244"
+            y="-385.244"
+            width="1608.95"
+            height="1597.62"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feGaussianBlur
+              stdDeviation="192.622"
+              result="effect1_foregroundBlur_79_690"
+            />
+          </filter>
+        </defs>
+      </svg>
+
+      <div class="container mx-auto pt-20">
+        <h1 class="text-5xl text-[#FAC025] font-abril mb-16">Lokasi</h1>
+        <div class="flex flex-col w-fit items-end">
+          <div class="flex pb-14 w-fit">
+            <div
+              class="card w-64 lg:w-80 bg-base-100 shadow-lg shadow-[#ffffff27] rounded-[50px] mr-7"
+            >
+              <figure class="relative">
+                <img src="assets/img/Places-image.png" alt="Picture" />
+                <div
+                  class="flex py-1 px-3 rounded-full bg-white bg-opacity-50 backdrop-blur-sm absolute top-10 left-7 text-white font-semibold"
+                >
+                  FloridaBlanca &nbsp;<img src="assets/img/Pin.svg" alt="" />
+                </div>
+                <div class="flex absolute w-14 justify-around mx-auto bottom-3">
+                  <div class="w-3 h-3 bg-[#FAC025] rounded-full"></div>
+                  <div class="w-3 h-3 bg-white rounded-full"></div>
+                  <div class="w-3 h-3 bg-white rounded-full"></div>
+                </div>
+              </figure>
+              <div class="card-body px-7 pt-5 pb-7">
+                <h2 class="card-title">Casa Wlaan Boutique</h2>
+                <p>
+                  Finca Campestre
+                  <span class="text-[8px]">⚫</span> Salón Social
+                </p>
+                <a
+                  class="btn rounded-full w-fit capitalize shadow-lg shadow-[#f6d46538] bg-gradient-to-r from-[#F6D365] from-00% via-[#F6D365] via-50% to-[#FBB708] text-white z-10"
+                  >More Info</a
+                >
+              </div>
+            </div>
+            <div
+              class="card w-64 lg:w-80 bg-base-100 shadow-lg shadow-[#ffffff27] rounded-[50px] mx-7"
+            >
+              <figure class="relative">
+                <img src="assets/img/Places-image.png" alt="Picture" />
+                <div
+                  class="flex py-1 px-3 rounded-full bg-white bg-opacity-50 backdrop-blur-sm absolute top-10 left-7 text-white font-semibold"
+                >
+                  FloridaBlanca &nbsp;<img src="assets/img/Pin.svg" alt="" />
+                </div>
+                <div class="flex absolute w-14 justify-around mx-auto bottom-3">
+                  <div class="w-3 h-3 bg-[#FAC025] rounded-full"></div>
+                  <div class="w-3 h-3 bg-white rounded-full"></div>
+                  <div class="w-3 h-3 bg-white rounded-full"></div>
+                </div>
+              </figure>
+              <div class="card-body px-7 pt-5 pb-7">
+                <h2 class="card-title">Casa Wlaan Boutique</h2>
+                <p>
+                  Finca Campestre
+                  <span class="text-[8px]">⚫</span> Salón Social
+                </p>
+                <a
+                  class="btn rounded-full w-fit capitalize shadow-lg shadow-[#f6d46538] bg-gradient-to-r from-[#F6D365] from-00% via-[#F6D365] via-50% to-[#FBB708] text-white z-10"
+                  >More Info</a
+                >
+              </div>
+            </div>
+            <div
+              class="card w-64 lg:w-80 bg-base-100 shadow-lg shadow-[#ffffff27] rounded-[50px] ml-7"
+            >
+              <figure class="relative">
+                <img src="assets/img/Places-image.png" alt="Picture" />
+                <div
+                  class="flex py-1 px-3 rounded-full bg-white bg-opacity-50 backdrop-blur-sm absolute top-10 left-7 text-white font-semibold"
+                >
+                  FloridaBlanca &nbsp;<img src="assets/img/Pin.svg" alt="" />
+                </div>
+                <div class="flex absolute w-14 justify-around mx-auto bottom-3">
+                  <div class="w-3 h-3 bg-[#FAC025] rounded-full"></div>
+                  <div class="w-3 h-3 bg-white rounded-full"></div>
+                  <div class="w-3 h-3 bg-white rounded-full"></div>
+                </div>
+              </figure>
+              <div class="card-body px-7 pt-5 pb-7">
+                <h2 class="card-title">Casa Wlaan Boutique</h2>
+                <p>
+                  Finca Campestre
+                  <span class="text-[8px]">⚫</span> Salón Social
+                </p>
+                <a
+                  class="btn rounded-full w-fit capitalize shadow-lg shadow-[#f6d46538] bg-gradient-to-r from-[#F6D365] from-00% via-[#F6D365] via-50% to-[#FBB708] text-white z-10"
+                  >More Info</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- More services -->
+          <div
+            class="btn btn-ghost rounded-full shadow-lg shadow-[#f6d46538] bg-gradient-to-b from-[#F6D365] from-00% via-[#F6D365] via-50% to-[#FBB708] text-[#141414] w-fit"
+          >
+            Service selengkapnya
+            <img src="assets/img/Arrow-right-black.svg" alt="" />
+          </div>
+          <!-- More services end -->
+        </div>
+      </div>
+    </section>
+    <!-- Places end -->
+
+    <!-- Gallery -->
+    <section id="gallery" class="relative overflow-hidden pb-80">
+      <img
+        class="absolute -z-10 -left-5 top-40"
+        src="assets/img/Dots.svg"
+        alt=""
+      />
+      <img
+        class="absolute -z-10 -right-32 top-[550px]"
+        src="assets/img/Dots.svg"
+        alt=""
+      />
+      <img
+        class="absolute -z-10 -left-12 top-[1200px]"
+        src="assets/img/Dots.svg"
+        alt=""
+      />
+      <div class="container mx-auto">
+        <h1 class="text-5xl text-[#0C111F] font-abril mb-16">Galeri Foto</h1>
+        <div
+          class="flex flex-wrap gap-8 [&>img]:rounded-[40px] mx-auto w-[1104px]"
+        >
+          <img src="assets/img/Gallery-image1.png" alt="" />
+          <img src="assets/img/Gallery-image2.png" alt="" />
+          <img src="assets/img/Gallery-image3.png" alt="" />
+          <img src="assets/img/Gallery-image4.png" alt="" />
+          <img src="assets/img/Gallery-image5.png" alt="" />
+          <img src="assets/img/Gallery-image6.png" alt="" />
+          <img src="assets/img/Gallery-image1.png" alt="" />
+          <img src="assets/img/Gallery-image2.png" alt="" />
+          <img src="assets/img/Gallery-image3.png" alt="" />
+          <img src="assets/img/Gallery-image4.png" alt="" />
+          <img src="assets/img/Gallery-image5.png" alt="" />
+          <img src="assets/img/Gallery-image6.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Gallery end -->
+
+    <!-- Footer -->
+    <section
+      id="footer"
+      class="relative bg-cover py-9 px-20 rounded-t-[60px] overflow-hidden"
+      style="background-image: url(assets/img/Places-bg.svg)"
+    >
+      <svg
+        class="absolute -left-[220px] -top-[500px] overflow-visible"
+        style="opacity: 0.5"
+        width="839"
+        height="828"
+        viewBox="0 0 839 828"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g opacity="0.3" filter="url(#filter0_f_79_690)">
+          <path
+            d="M838.463 413.566C838.463 641.972 650.767 827.132 419.231 827.132C187.696 827.132 0 641.972 0 413.566C0 185.16 187.696 0 419.231 0C650.767 0 838.463 185.16 838.463 413.566Z"
+            fill="#A4A4A4"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_79_690"
+            x="-385.244"
+            y="-385.244"
+            width="1608.95"
+            height="1597.62"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feGaussianBlur
+              stdDeviation="192.622"
+              result="effect1_foregroundBlur_79_690"
+            />
+          </filter>
+        </defs>
+      </svg>
+      <svg
+        class="absolute -right-[270px] -bottom-[500px] overflow-visible"
+        style="opacity: 0.5"
+        width="839"
+        height="828"
+        viewBox="0 0 839 828"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g opacity="0.3" filter="url(#filter0_f_79_690)">
+          <path
+            d="M838.463 413.566C838.463 641.972 650.767 827.132 419.231 827.132C187.696 827.132 0 641.972 0 413.566C0 185.16 187.696 0 419.231 0C650.767 0 838.463 185.16 838.463 413.566Z"
+            fill="#A4A4A4"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_79_690"
+            x="-385.244"
+            y="-385.244"
+            width="1608.95"
+            height="1597.62"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feGaussianBlur
+              stdDeviation="192.622"
+              result="effect1_foregroundBlur_79_690"
+            />
+          </filter>
+        </defs>
+      </svg>
+      <div class="flex justify-between items-center">
+        <div>
+          <h1 class="text-5xl text-[#FAC025] font-abril">Eventos Premium</h1>
+          <p class="text-white">Wedding & Event Planner</p>
+        </div>
+        <div class="flex flex-col gap-5">
+          <img src="assets/img/Footer-ig.svg" alt="" />
+          <img src="assets/img/Footer-fb.svg" alt="" />
+          <img src="assets/img/Footer-wa.svg" alt="" />
+        </div>
+      </div>
+      <p class="text-white absolute b-5 left-1/2 -translate-x-1/2">
+        &copy;ARTALOPA 2023, Design by CRISTIAN MUÑOZ
+      </p>
+    </section>
+    <!-- Footer end -->
+  </body>
+</html>
